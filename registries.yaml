@@ -1,0 +1,9 @@
+mirrors:
+ "k8s.sm0ke.local:5000":
+    endpoint:
+        - "https://k8s.sm0ke.local:5000"
+configs:
+ "k8s.sm0ke.local:5000":
+    tls:
+        cert_file: /opt/certs/registry.crt
+        key_file:  /opt/certs/registry.key
